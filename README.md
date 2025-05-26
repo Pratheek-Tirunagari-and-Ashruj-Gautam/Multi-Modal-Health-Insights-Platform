@@ -85,7 +85,7 @@ Ensemble of specialized models for critical disease detection, each trained on c
   - Recall: 0.92
   - F1-Score: 0.88
   - AUC-ROC: 0.97
-  - 
+    
 ### 4. LLM-Powered Diagnostic Fusion & Prescription System
 - **Model**: Locally-hosted Llama2 LLM
 - **Integration**: Custom prompt engineering for medical context
