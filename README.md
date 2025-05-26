@@ -338,11 +338,8 @@ prescription = llm_fusion.generate_prescription(
 - Innovation in Medical Technology - HealthTech Conference
 - Featured in Medical AI Journal
 
-## License
-This project is licensed under the MIT License
-
 ## Author
-[Your Name]
+[Pratheek Tirunagari and Ashruj Gautam]
 - AI/ML Engineer
-- Healthcare Technology Specialist
+- Healthcare Technology 
 - Full Stack Developer
