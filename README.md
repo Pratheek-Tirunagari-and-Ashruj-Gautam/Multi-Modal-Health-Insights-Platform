@@ -85,7 +85,26 @@ Ensemble of specialized models for critical disease detection, each trained on c
   - Recall: 0.92
   - F1-Score: 0.88
   - AUC-ROC: 0.97
+  - 
+### 4. LLM-Powered Diagnostic Fusion & Prescription System
+- **Model**: Locally-hosted Llama2 LLM
+- **Integration**: Custom prompt engineering for medical context
+- **Capabilities**:
+  - Multi-modal result fusion
+  - Contextual prescription generation
+  - Drug interaction analysis
+  - Patient-specific medication adjustments
+- **Features**:
+  - Considers comorbidities in prescriptions
+  - Real-time medication compatibility checks
+  - Dosage optimization based on patient conditions
 
+### 5. Interactive GUI System
+- Modern PyQt5-based interface
+- Drag-and-drop functionality for X-rays
+- Real-time analysis feedback
+- Integrated report generation
+- Export capabilities for medical records
 ## Project Structure
 ```
 ├── Image/          # Image analysis models and scripts
@@ -134,30 +153,6 @@ python gui.py
    - Include error handling
    - Write unit tests
 
-## Models
-- Image: DenseNet121-based CheXagent model
-- Tabular: Random Forest and XGBoost models
-- Text: Fine-tuned medical BERT model
-
-### 4. LLM-Powered Diagnostic Fusion & Prescription System
-- **Model**: Locally-hosted Llama2 LLM
-- **Integration**: Custom prompt engineering for medical context
-- **Capabilities**:
-  - Multi-modal result fusion
-  - Contextual prescription generation
-  - Drug interaction analysis
-  - Patient-specific medication adjustments
-- **Features**:
-  - Considers comorbidities in prescriptions
-  - Real-time medication compatibility checks
-  - Dosage optimization based on patient conditions
-
-### 5. Interactive GUI System
-- Modern PyQt5-based interface
-- Drag-and-drop functionality for X-rays
-- Real-time analysis feedback
-- Integrated report generation
-- Export capabilities for medical records
 
 ## Technical Architecture
 
