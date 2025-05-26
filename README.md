@@ -13,26 +13,14 @@ A cutting-edge medical diagnostic system leveraging state-of-the-art deep learni
   1. Initial Training on Stanford's CheXpert dataset (224,316 chest radiographs)
   2. Domain adaptation using custom loss functions
   3. Final transfer learning on target chest X-ray dataset
-- **Model Evolution**:
-  - **Before Transfer Learning**:
-    - Accuracy: 71.2%
-    - F1-Score: 0.68
-    - AUC-ROC: 0.74
-    - Precision: 0.69
-    - Recall: 0.67
+- **Model Evaluation**:
   - **After Transfer Learning**:
     - Accuracy: 89.5%
     - F1-Score: 0.87
     - AUC-ROC: 0.92
     - Precision: 0.88
     - Recall: 0.86
-    - Processing Time: 1.8s/image on GPU
-- **Disease-specific Performance**:
-  - Pneumonia: 91.2% accuracy
-  - Cardiomegaly: 88.7% accuracy
-  - Edema: 90.1% accuracy
-  - Atelectasis: 87.3% accuracy
-  - Pleural Effusion: 92.4% accuracy
+
 
 ### 2. Advanced NLP System (Clinical BERT Transfer Learning)
 - **Base Model**: BioBERT pretrained on PubMed abstracts
@@ -45,20 +33,13 @@ A cutting-edge medical diagnostic system leveraging state-of-the-art deep learni
   - 768 hidden dimensions
   - 12 attention heads
   - Medical vocabulary expansion: +18,000 tokens
-- **Performance Evolution**:
-  - **Before Transfer Learning**:
-    - Accuracy: 75.3%
-    - F1-Score: 0.73
-    - Precision: 0.74
-    - Recall: 0.72
-    - BLEU Score: 0.65
+- **Performance Evaluation**:
   - **After Transfer Learning**:
-    - Accuracy: 91.7%
-    - F1-Score: 0.89
-    - Precision: 0.90
-    - Recall: 0.88
-    - BLEU Score: 0.82
-    - Processing Time: 0.9s/report
+    - Accuracy: 67.1%
+    - F1-Score: 0.87
+    - Precision: 0.84
+    - Recall: 0.91
+
 
 ### 3. Multi-Disease Classification System (Trained From Scratch)
 Ensemble of specialized models for critical disease detection, each trained on carefully curated datasets:
@@ -71,13 +52,11 @@ Ensemble of specialized models for critical disease detection, each trained on c
   - Advanced correlation analysis
   - Custom feature scaling pipeline
 - **Model Performance**:
-  - Accuracy: 92.3% ±0.4
-  - Precision: 0.90 ±0.02
-  - Recall: 0.89 ±0.03
-  - F1-Score: 0.896 ±0.015
-  - AUC-ROC: 0.91
-  - Specificity: 0.93
-  - Processing Time: 0.3s/sample
+  - Accuracy: 75.2%
+  - Precision: 0.73
+  - Recall: 0.79
+  - F1-Score: 0.76
+  - AUC-ROC: 0.83
 
 #### b. Kidney Disease Analytics
 - **Architecture**: Enhanced Random Forest with Custom Preprocessing
@@ -87,13 +66,11 @@ Ensemble of specialized models for critical disease detection, each trained on c
   - Missing value imputation
   - Advanced feature selection
 - **Model Performance**:
-  - Accuracy: 94.2% ±0.3
-  - Precision: 0.95 ±0.02
-  - Recall: 0.93 ±0.02
-  - F1-Score: 0.94 ±0.015
-  - AUC-ROC: 0.96
-  - NPV: 0.92
-  - Processing Time: 0.2s/sample
+  - Accuracy: 97.5%
+  - Precision: 1.0
+  - Recall: 0.93
+  - F1-Score: 0.96
+  - AUC-ROC: 1.0
 
 #### c. Heart Disease Detection
 - **Architecture**: Deep Neural Network
@@ -103,18 +80,11 @@ Ensemble of specialized models for critical disease detection, each trained on c
   - Dropout: 0.3
 - **Dataset**: Cleveland Heart Disease Dataset (303 samples)
 - **Model Performance**:
-  - Accuracy: 91.5% ±0.5
-  - Precision: 0.92 ±0.03
-  - Recall: 0.90 ±0.03
-  - F1-Score: 0.91 ±0.02
-  - AUC-ROC: 0.93
-  - Specificity: 0.92
-  - Processing Time: 0.15s/sample
-- No sensitive patient data included
-- Use environment variables for configuration
-- All paths are relative to project root
-- Input validation implemented
-- Error handling and logging in place
+  - Accuracy: 88.5%
+  - Precision: 0.83
+  - Recall: 0.92
+  - F1-Score: 0.88
+  - AUC-ROC: 0.97
 
 ## Project Structure
 ```
@@ -334,8 +304,3 @@ prescription = llm_fusion.generate_prescription(
 3. Cloud deployment options
 4. Additional disease modules
 5. Enhanced prescription automation
-
-## Awards and Recognition
-- Best Healthcare AI Project - AI Summit 2024
-- Innovation in Medical Technology - HealthTech Conference
-- Featured in Medical AI Journal
