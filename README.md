@@ -163,41 +163,41 @@ Note: Your system is expected to have Llama 3.2 in your local system. If not, pl
 - **Memory Management**: Efficient batch processing
 - **Parallelization**: Multi-threaded data processing
 
-## 1. Core Pipeline Architecture
+### 1. Core Pipeline Architecture
 
 The primary logic is implemented in `run_all_models.py` via the `MedicalAIPipeline` class. It integrates multiple AI models to perform comprehensive patient analysis and treatment recommendations.
 
-### A. Multi-Modal Input Processing
+#### A. Multi-Modal Input Processing
 
-#### Image Analysis
+##### Image Analysis
 - Inputs chest X-ray images
 - Uses a DenseNet121 model with attention mechanisms
 - Performs multi-label classification for 13 lung diseases
 - Implementation: `train_chexagent_model.py` and related files
 
-#### Text Analysis
+##### Text Analysis
 - Inputs radiology reports
 - Uses a BERT-based model fine-tuned on clinical text
 - Performs multi-label classification matching image model's outputs
 - Includes a fallback keyword-matching system
 
-#### Tabular Data Analysis
+##### Tabular Data Analysis
 - **Diabetes**: XGBoost model on 21 features
 - **Kidney Disease**: Random Forest on 24 features
 - **Heart Disease**: MLP classifier using clinical inputs
 - All provide binary classification (Yes/No) with probability outputs
 
-### B. Model Integration
+#### B. Model Integration
 
-#### Disease Detection Fusion
+##### Disease Detection Fusion
 - Merges predictions from image and text models
 - Resolves conflicts using confidence scores
 
-#### Risk Assessment
+##### Risk Assessment
 - Combines heart, kidney, and diabetes results
 - Builds a complete comorbidity risk profile
 
-### C. LLM Integration
+#### C. LLM Integration
 
 - Takes merged predictions from all models
 - Generates structured medical prompts
@@ -207,24 +207,24 @@ The primary logic is implemented in `run_all_models.py` via the `MedicalAIPipeli
 
 ---
 
-## 2. LLM Fusion Strategy
+### 2. LLM Fusion Strategy
 
 The LLM layer acts as a high-level decision-making system that:
 
-### Aggregates Outputs
+#### Aggregates Outputs
 - Integrates predictions from image, text, and tabular models
 - Utilizes confidence scores to balance conflicting results
 
-### Contextual Reasoning
+#### Contextual Reasoning
 - Analyzes relations between multiple diseases
 - Evaluates risks posed by comorbidities like diabetes, heart, and kidney disease
 
-### Medical Knowledge Application
+#### Medical Knowledge Application
 - Applies clinical logic to suggest compatible treatments
 - Highlights drug contraindications based on comorbidity status
 - Adjusts or recommends alternative medications accordingly
 
-### Final Decision Support
+#### Final Decision Support
 - Prioritizes treatment based on severity
 - Balances multiple therapies to avoid medical conflict
 - Produces a holistic treatment recommendation plan
