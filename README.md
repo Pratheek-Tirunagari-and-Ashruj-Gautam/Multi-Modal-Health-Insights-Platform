@@ -205,8 +205,6 @@ The primary logic is implemented in `run_all_models.py` via the `MedicalAIPipeli
 - Considers comorbidities and contraindications
 - Implements fallback systems (Ollama, GPT4All, LM Studio)
 
----
-
 ### 2. LLM Fusion Strategy
 
 The LLM layer acts as a high-level decision-making system that:
