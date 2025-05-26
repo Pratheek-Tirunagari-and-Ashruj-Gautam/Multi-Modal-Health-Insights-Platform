@@ -133,6 +133,7 @@ pip install -r requirements.txt
 ```powershell
 python gui.py
 ```
+Note: Your system is expected to have Llama 3.2 in your local system. If not, please download it --> https://www.llama.com/llama-downloads/
 
 ## Development Guidelines
 1. Security:
