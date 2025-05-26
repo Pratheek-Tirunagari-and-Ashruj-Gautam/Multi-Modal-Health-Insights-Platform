@@ -338,8 +338,8 @@ prescription = llm_fusion.generate_prescription(
 - Innovation in Medical Technology - HealthTech Conference
 - Featured in Medical AI Journal
 
-## Author
-[Pratheek Tirunagari and Ashruj Gautam]
+## Authors
+Pratheek Tirunagari and Ashruj Gautam
 - AI/ML Engineer
 - Healthcare Technology 
 - Full Stack Developer
