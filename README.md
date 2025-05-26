@@ -232,6 +232,10 @@ The LLM layer acts as a high-level decision-making system that:
 
 
 
+
+https://github.com/user-attachments/assets/8a0d80b8-3b69-4c6f-991d-2806638d608f
+
+
 ## Implementation Highlights
 
 ### Advanced Model Training
