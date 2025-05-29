@@ -137,7 +137,8 @@ pip install -r requirements.txt
 python gui.py
 ```
 **Note**: Your system is expected to have Llama 3.2 installed locally.  
-If not, please download it from [https://www.llama.com/llama-downloads/](https://www.llama.com/llama-downloads/)
+If not, please [download it here](https://www.llama.com/llama-downloads/).
+
 
 
 ## Development Guidelines
