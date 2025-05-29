@@ -12,7 +12,7 @@ A cutting-edge medical diagnostic system leveraging state-of-the-art deep learni
 - **Transfer Learning Process**:
   1. Initial Training on Stanford's CheXpert dataset (224,316 chest radiographs)
   2. Domain adaptation using custom loss functions
-  3. Final transfer learning on the target chexpert small X-ray dataset. --> https://www.kaggle.com/datasets/ashery/chexpert
+  3. [Final transfer learning on the target CheXpert small X-ray dataset](https://www.kaggle.com/datasets/ashery/chexpert)
 - **Model Evaluation**:
   - **After Transfer Learning**:
     - Accuracy: 89.5%
