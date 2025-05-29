@@ -27,7 +27,8 @@ A cutting-edge medical diagnostic system leveraging state-of-the-art deep learni
 - **Transfer Learning Pipeline**:
   1. Initial pretraining on 2M medical documents
   2. Domain adaptation on 100K radiology reports
-  3. Final transfer learning on the custom dataset --> https://www.mediafire.com/file/3gornmrb27ftbzv/Dataset.zip/file
+  3. [Final transfer learning on the custom dataset](https://www.mediafire.com/file/3gornmrb27ftbzv/Dataset.zip/file)
+
 - **Architecture**: 
   - 12 transformer layers
   - 768 hidden dimensions
@@ -46,7 +47,8 @@ Ensemble of specialized models for critical disease detection, each trained on c
 
 #### a. Diabetes Prediction Model
 - **Architecture**: Custom Gradient Boosting Classifier
-- **Dataset**: BRFSS2015 Diabetes Dataset (253,680 samples) --> https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
+- **Dataset**: [BRFSS2015 Diabetes Dataset (253,680 samples)](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
+
 - **Feature Engineering**:
   - 16 vital health markers optimization
   - Advanced correlation analysis
@@ -60,7 +62,7 @@ Ensemble of specialized models for critical disease detection, each trained on c
 
 #### b. Kidney Disease Analytics
 - **Architecture**: Enhanced Random Forest with Custom Preprocessing
-- **Dataset**: Chronic Kidney Disease Dataset (400 samples) --> https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease
+- **Dataset**: [Chronic Kidney Disease Dataset (400 samples)](https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease)
 - **Feature Processing**:
   - 24 biological markers
   - Missing value imputation
@@ -78,7 +80,8 @@ Ensemble of specialized models for critical disease detection, each trained on c
   - Hidden Layers: [256, 128, 64] nodes
   - Activation: ReLU + Batch Normalization
   - Dropout: 0.3
-- **Dataset**: Cleveland Heart Disease Dataset (303 samples) --> https://www.kaggle.com/datasets/ritwikb3/heart-disease-cleveland
+- **Dataset**: [Cleveland Heart Disease Dataset (303 samples)](https://www.kaggle.com/datasets/ritwikb3/heart-disease-cleveland)
+
 - **Model Performance**:
   - Accuracy: 88.5%
   - Precision: 0.83
