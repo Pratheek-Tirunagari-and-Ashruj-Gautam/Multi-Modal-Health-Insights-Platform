@@ -3,7 +3,7 @@
 1. Pratheek Tiruangari
 2. Ashruj Gautam
 ## Project Overview
-A cutting-edge medical diagnostic system leveraging state-of-the-art deep learning models and Large Language Models (LLM) for comprehensive patient analysis. This revolutionary platform combines medical imaging, natural language processing, and structured data analysis to provide holistic medical assessments and personalized prescription recommendations.
+A cutting-edge medical diagnostic system leveraging state-of-the-art deep learning models and Large Language Models (LLM) for comprehensive patient analysis. This revolutionary platform combines medical imaging, natural language processing, and structured data analysis to deliver comprehensive medical assessments and tailored prescription recommendations.
 
 ## Core Components
 
