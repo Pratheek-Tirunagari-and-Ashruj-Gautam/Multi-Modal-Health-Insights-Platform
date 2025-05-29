@@ -232,6 +232,8 @@ The LLM layer acts as a high-level decision-making system that:
 - Prioritizes treatment based on severity
 - Balances multiple therapies to avoid medical conflict
 - Produces a holistic treatment recommendation plan
+
+## Diagramatic Representation
 ![image](https://github.com/user-attachments/assets/9d06f2c2-81bd-4a44-823b-5d6763790725)
 
 
